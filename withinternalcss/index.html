@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Huseyin Kargaci Personal Website</title>
+
+    <!--We're learning style in this page.
+    Let's say we use 20 times horizontal rule in our webpage and we want to change their style.
+That means we have to change 20 things and sometimes we can make a mistake.
+If we don't want to make a mistake, we should write the rules inside of head with <style>-->
+    <style>
+      body {
+        background-color: #aae3e2;
+      }
+
+      hr {
+        border-color: #fdebed;
+        border-style: none;
+        border-top-style: dotted;
+        border-width: 10px;
+        width: 5%;
+      }
+    </style>
+    <!--There are defaulty style values in HTML. For example, horizontal rule's default style is 
+    display: block;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+margin-left: auto;
+margin-right: auto;
+border-style: inset;
+border-width: 1px;                   and I want to change the color and size of horizontal rule. So, I have to change border-style: none  because
+                                     default style value is border-width: 1px;-->
+
+    <!--We have contact-me.html and we have to copy the <style> part and paste it inside of the contact-me.html but you know, if we are working on the
+    big webpage like nearly 100 .html files, we have copy and paste it all day long and that's mean too much time!
+We have to create .css file for whole .html files. Let's learn it!
+We did Internal CSS in this case and the third lesson, we'll learn External CSS-->
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td><img height="160" src="./images/pp.jpg" /></td>
+        <td>
+          <h1>Huseyin Kargaci</h1>
+          <p>
+            <em
+              >Student at
+              <a href="https://www.mcbu.edu.tr/Sayfa/Tarihce"
+                >Manisa Celal Bayar University</a
+              >.</em
+            >
+            <br />
+            Department of Electrical and Electronics Engineering
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <p>
+      I'm a student at Celal Bayar University and my major is Electrical and
+      Electronics Engineering. I improve myself in software area and I'm
+      currently learning C language for Embedded Systems and JS for Web
+      Development. I also working on a game development project and I use Unreal
+      Engine 5 for level designs.
+    </p>
+
+    <hr />
+    <h3>Work Experiences</h3>
+
+    <table cellspacing="40">
+      <tr>
+        <td>2019-2020</td>
+        <td>Vadi Botanik Peyzaj</td>
+        <td>Office Worker/IT</td>
+      </tr>
+      <tr>
+        <td>2020-2021</td>
+        <td>Vadi Botanik Peyzaj</td>
+        <td>Electrical and Electronics Engineering Intern</td>
+      </tr>
+    </table>
+    <hr />
+    <h3>Skills</h3>
+    <table cellspacing="20">
+      <tr>
+        <td>
+          <p>JavaScript</p>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>C</p>
+        </td>
+        <td>
+          <p><span>⭐⭐⭐⭐</span></p>
+          <p><span>⭐⭐⭐⭐</span></p>
+          <p><span>⭐⭐⭐</span></p>
+          <p><span>⭐⭐⭐</span></p>
+        </td>
+        <td><p>&nbsp;&nbsp;&nbsp;</p></td>
+        <td><p>&nbsp;&nbsp;&nbsp;</p></td>
+        <td>
+          <p>Photoshop</p>
+          <p>Adobe Premiere Pro</p>
+          <p>Math</p>
+          <p>Algorithm</p>
+        </td>
+        <td>
+          <p><span>⭐⭐⭐⭐</span></p>
+          <p><span>⭐⭐⭐</span></p>
+          <p><span>⭐⭐⭐⭐⭐</span></p>
+          <p><span>⭐⭐⭐⭐⭐</span></p>
+        </td>
+      </tr>
+    </table>
+
+    <a href="./contact-me.html">Contact Me!</a>
+  </body>
+</html>
